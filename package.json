@@ -1,0 +1,19 @@
+{
+  "name": "rsconnect-nodejs-backend",
+  "version": "1.0.0",
+  "description": "RSConnect NodeJS Backend Test Api with datastore mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "API",
+    "Rest",
+    "API",
+    "Node"
+  ],
+  "author": "Malik Imran",
+  "license": "MIT"
+}
