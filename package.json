@@ -4,6 +4,8 @@
   "description": "RSConnect NodeJS Backend Test Api with datastore mongo db",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
     "test": "jest"
   },
   "keywords": [
@@ -15,5 +17,12 @@
     "Node"
   ],
   "author": "Malik Imran",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "nodemon": "^2.0.6",
+    "mongoose": "^5.8.3",
+    "config": "^3.2.4"
+  }
 }
