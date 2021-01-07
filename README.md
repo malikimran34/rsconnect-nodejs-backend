@@ -29,7 +29,7 @@ Use postman to test end point. once you have run the "docker-compose up" both Ba
 
 ## Datastore
 
-Mongodb is used as a main datastore as an api database. Node service will connect to mongodb using mongodb://mongo:27017/rsconnect-nodejs-backend, where mongo:27017 is equal to service:port
+Mongodb is used as a main datastore as an api database. Node service will connect to mongodb using mongodb://mongo:27017/rsconnect-nodejs-backend, where mongo:27017 is equal to docker service name and port
 
 ## Licence
 
