@@ -62,7 +62,7 @@ router.post(
       if (image) {
         return res
           .status(400)
-          .send({ errors: [{ msg: "image already exist" }] });
+          .send({ errors: [{ msg: "image already exists in datastore" }] });
       }
 
       // New image
